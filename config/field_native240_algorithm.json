@@ -1,0 +1,21 @@
+{
+  "independent_J_audit_seed": 915137,
+  "independent_CV_audit_seed": 925137,
+  "native_refinement": {
+    "steps": 240,
+    "learning_rate": 0.025,
+    "cosine_terminal_fraction": 0.1,
+    "station_batch_size": 66,
+    "frequencies_per_step": 5,
+    "training_evaluation_steps": [
+      0,
+      60,
+      120,
+      180,
+      240
+    ],
+    "station_RNG": "Continue the verified180-step point-MAP NumPy state on all3949 observations, including historical reserved rows; no separate reserved-prediction files are used for selection",
+    "optimizer": "New Adam for native logits with preset cosine LR; explicit numerical refinement, unchanged full original point target",
+    "selection": "Minimum complete all3949 original Gaussian NLL plus native prior including local step0; raw RMS is diagnostic only"
+  }
+}

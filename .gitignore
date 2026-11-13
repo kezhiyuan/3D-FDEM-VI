@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+.venv/
+.env
+data/
+weights/
+runs/
+results/
+*.pt
+*.pkl
+*.npy
+*.npz
+*.rho
+*.imp
+*.zip
+*.pdf
+*.docx

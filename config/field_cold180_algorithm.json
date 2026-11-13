@@ -1,0 +1,40 @@
+{
+  "map": {
+    "seed": 7137,
+    "batch_seed": 517144,
+    "station_batch": 66,
+    "stage_steps": [
+      60,
+      60,
+      60
+    ],
+    "lengths_yxz": [
+      [
+        8.0,
+        8.0,
+        3.0
+      ],
+      [
+        4.0,
+        4.0,
+        2.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "epsilon": 0.125,
+    "learning_rate": 0.05,
+    "training_evaluation_steps": [
+      0,
+      60,
+      120,
+      180
+    ],
+    "selection": "Minimum complete all3949 original Gaussian energy plus full native prior including step0; no truth or GN"
+  },
+  "independent_J_audit_seed": 915137,
+  "independent_CV_audit_seed": 925137
+}
